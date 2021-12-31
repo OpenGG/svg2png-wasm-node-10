@@ -1,7 +1,2 @@
-/target
-/dist*
-node_modules
-test-results
-Cargo.lock
-reg.json
-*.wasm
+*.tgz
+/package
