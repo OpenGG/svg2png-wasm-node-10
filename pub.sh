@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-set -xe
+set -e
 
 URL=`npm info svg2png-wasm dist.tarball`
-NAME=svg2png-wasm-node10
+NAME=svg2png-wasm-node-10
 TGZ=svg2png-wasm.tgz
 FOLDER=package/dist
 
@@ -29,6 +29,7 @@ cd package/
 cp ../README.md README.md
 
 npm_config_yes=true npx npe name $NAME
+npm_config_yes=true npx npe scripts --delete
 
 npm publish
 

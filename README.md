@@ -1,4 +1,4 @@
-# svg2png-wasm-node10
+# svg2png-wasm-node-10
 
 [svg2png-wasm](https://github.com/ssssota/svg2png-wasm) for node10 compatibility.
 
